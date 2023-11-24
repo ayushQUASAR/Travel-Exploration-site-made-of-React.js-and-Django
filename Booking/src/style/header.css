@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Jim+Nightshade&family=Josefin+Sans:wght@700&display=swap");
+
+.head {
+  min-height: 60px;
+  width: 100%;
+  /* filter: blur(20px); */
+  z-index: 1000;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(10px);
+  background-color: rgb(248, 207, 174), 237, 237;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(255, 157, 0);
+}
+.Profile-div{
+  background-color: #e49b45;
+  padding: 10px 28px;
+  color: white;
+  margin: 5px 10px;
+  font-family: "Jim Nightshade", cursive;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 25px;
+  letter-spacing: 0.09rem;
+  border-radius: 10px;
+
+}
+.opn {
+  margin: 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
+  color: white;
+}
+.title {
+  color: #eb6214;
+  font-size: 60px;
+  margin: 10px 20px;
+  font-family: "Jim Nightshade", cursive;
+}
+.top-link{
+  color: inherit;
+}
+.auth,
+.contact {
+  background-color: #e49b45;
+  padding: 10px 28px;
+  margin: 5px 10px;
+  font-family: "Jim Nightshade", cursive;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 25px;
+  letter-spacing: 0.09rem;
+  border-radius: 10px;
+}
+
+.contact:hover{
+  background-color: #fff;
+  color:#e49b45;
+}
+
+.auth:hover{
+  background-color: #fff;
+  color:#e49b45;
+}

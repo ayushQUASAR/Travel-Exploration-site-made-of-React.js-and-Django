@@ -1,0 +1,166 @@
+.Hotel-popup {
+  width: 70vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 80vh;
+  background-color: #ffffff;
+  z-index: 100000;
+  position: fixed;
+  top: 10vh;
+  border-radius: 10px;
+  box-shadow: 4px 10px 10px rgb(180, 179, 179),
+    -4px -10px 10px rgb(180, 179, 179);
+  left: 15vw;
+}
+.hotel-details p {
+  color: black;
+}
+/* styles.css */
+.hotel-card {
+  margin: 30px;
+}
+.customer-input {
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+}
+/* Popup Styles */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .popup {
+    background: #b94008;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255) !important;
+    max-width: 400px;
+  }
+  
+  
+  .popup-heading {
+    color: rgb(255, 255, 255) !important;
+    margin: 20px;
+  }
+  
+  .popup-para {
+    color: rgb(255, 255, 255) !important;
+    font-size: medium;
+  }
+  
+  .sucessIcon{
+    height: 50px;
+    width: 50px;
+  }
+.customer-input p {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.customer-input input {
+  border: 3px solid #ea8215;
+  padding: 8px;
+  width: 300px;
+  text-align: center;
+  font-size: medium;
+  font-weight: 600;
+  height: 50px;
+  letter-spacing: 0.004rem;
+  transition: border-color 0.3s ease-in-out;
+}
+.cancel{
+    position: absolute;
+  top: 10%;
+  font-size: 30px;
+  right: 5%;
+  color: rgb(187, 7, 7);
+}
+.cancel svg{
+    font-size: 30px;
+}
+.customer-input input:focus {
+  border-color: rgb(252, 125, 125);
+  outline: none;
+}
+.hotel-profile {
+  margin: 20px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px;
+  border-radius: 10px;
+}
+.hotel-image {
+  border-radius: 20px;
+  width: 400px;
+}
+.stars{
+    color: rgb(255, 217, 0);
+    margin: 0 5px;
+}
+.room-description p:nth-child(2){
+    color: green;
+}.room-description p:nth-child(3){
+    color: green;
+}
+.hotel-name-stars{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hotel-profile-info {
+  margin: 0 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* styles.css */
+
+.room-description {
+  font-family: "Arial", sans-serif;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.room-description h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.room-description p {
+  margin: 5px 0;
+}
+
+.hotel-names {
+  text-align: center;
+  color: rgb(255, 115, 0);
+}
+.room-price{
+    text-align: left;
+    font-size: large;
+    font-weight: 300;
+}
+
+.available{
+    color: blue;
+}

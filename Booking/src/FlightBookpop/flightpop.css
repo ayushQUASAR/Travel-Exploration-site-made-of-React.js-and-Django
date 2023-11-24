@@ -1,0 +1,17 @@
+.flight-book-details{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 10px auto;
+    align-items: center;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+.flight-left {
+    display: flex;
+    flex-direction: column;
+}.flight-right{
+    display: flex;
+    flex-direction: column;
+}

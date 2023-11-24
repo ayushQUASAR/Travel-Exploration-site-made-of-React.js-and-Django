@@ -1,0 +1,86 @@
+/* FlightDetails.css */
+.flight-details-card {
+  display: grid;
+  margin: 20px 5px;
+
+  box-shadow: 4px 7px 10px rgb(60, 60, 60);
+  grid-template-columns: 1fr 2fr 1fr;
+
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: rgb(255, 217, 202);
+  border-radius: 5px;
+}
+.flight-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flightshow-wrapper {
+  width: 50vw;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 5px 10px 10px rgb(166, 166, 166),
+    -5px -10px 10px rgb(164, 164, 164);
+}
+.flight-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.book-flight {
+  color: white;
+  border-radius: 10px;
+  font-weight: 600;
+  padding: 10px 20px;
+  display: flex;
+  box-shadow: 2px 8px 10px rgb(255, 106, 0);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(230, 124, 48);
+}
+.flight-show {
+  /* width: 50vw; */
+  /* padding: 30px 50px; */
+  margin: 0 auto;
+  background-color: #fff;
+  /* border: 2px solid black; */
+  border-radius: 10px;
+}
+
+.flight-detail {
+  flex-basis: calc(25% - 10px); /* Adjust the width as needed */
+  margin: 5px;
+}
+.time {
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 600;
+  font-size: 20px;
+
+  margin-bottom: 10px;
+}
+.date {
+  color: rgba(0, 0, 0, 0.607);
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 3px;
+}
+.flight-left img {
+  width: 100px;
+}
+.left-wing {
+  margin: 0 10px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.airport-code {
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+/* Add more styles as needed */
